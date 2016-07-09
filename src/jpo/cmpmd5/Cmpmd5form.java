@@ -38,14 +38,14 @@ public class Cmpmd5form {
 		window.setResizable(false);
 		window.setLocation(500, 300);
 		window.setTitle("Compara Arxius amb MD5");
-		window.setSize(400, 300);
+		window.setSize(575, 300);
 		window.addWindowListener(formAction);
-		int x1=50;
-		int x2=200;
-		int y1=10;
+		int x1=25;
+		int x2=300;
+		int y1=20;
 		int yi=0;
 		int yy=50;
-		int sx=150;
+		int sx=250;
 		int sy=30;
 		// Buto 1
 		btFile1 = new JButton();
@@ -72,23 +72,23 @@ public class Cmpmd5form {
 		// Size 1
 		tSize1 = new JTextField();
 		tSize1.setBounds(x1, y1+yy*yi, sx, sy);
-		tSize1.setHorizontalAlignment(SwingConstants.RIGHT);
+		tSize1.setHorizontalAlignment(SwingConstants.LEFT);
 		window.add(tSize1);
 		// Size 2
 		tSize2= new JTextField();
 		tSize2.setBounds(x2, y1+yy*yi++, sx, sy);
-		tSize2.setHorizontalAlignment(SwingConstants.RIGHT);
+		tSize2.setHorizontalAlignment(SwingConstants.LEFT);
 		window.add(tSize2);
 		// Date 1
 		tDate1= new JTextField();
 		tDate1.setBounds(x1, y1+yy*yi, sx, sy);
-		tDate1.setHorizontalAlignment(SwingConstants.RIGHT);
+		tDate1.setHorizontalAlignment(SwingConstants.LEFT);
 		window.add(tDate1);
 		// Date 2
 		tDate2= new JTextField();
 		tDate2.setBounds(x2, y1+yy*yi++, sx, sy);
 		window.add(tDate2);
-		tDate2.setHorizontalAlignment(SwingConstants.RIGHT);
+		tDate2.setHorizontalAlignment(SwingConstants.LEFT);
 		// MD5 1
 		tMd51= new JTextField();
 		tMd51.setBounds(x1, y1+yy*yi, sx, sy);
